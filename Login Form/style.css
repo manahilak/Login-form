@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wgh@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/bgimg.jpg);
+  background-size: cover;
+}
+.box {
+  border-radius: 20px;
+  width: 300px;
+  padding: 30px;
+  /* border: 2px solid orangered; */
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 2px #ffc400ef;
+  display: flex;
+  flex-direction: column;
+}
+.box h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+.Username,
+.password {
+  position: relative;
+}
+.icon {
+  position: absolute;
+  left: 24px;
+  top: 20px;
+  color: rgb(256, 256, 256);
+}
+.box input[type="text"],
+.box input[type="password"] {
+  font-size: 20px;
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #0367fd;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: #fff;
+  border-radius: 24px;
+  transition: all 0.2s ease-in;
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  border-color: #ffc400ec;
+}
+.btn {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 22px;
+  border: 3px solid #ffc400ec;
+  padding: 14px 35px;
+  color: rgb(256, 256, 256);
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ffc400ac;
+}
+.container {
+  /* border: 2px solid orangered; */
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+.iconn {
+  width: 12px;
+  height: 12px;
+  font-weight: bold;
+}
